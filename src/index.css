@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.party-list{
+  display: block;
+  width: 70%;
+  margin: 0px auto;
+}
+.party-conatiner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.total-voter {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+button.party-name {
+  background: #2196F3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.main-conatiner {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.vvpat-img {
+  border: 1px solid;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+}
+.vvpat-img img {
+  width: 150px;
+  height: 150px;
+}
+button.party-name.display-result {
+  margin: 50px 30px;
+}
+table {
+  border: 1px solid;
+  margin: 0 auto;
+  width: 30%;
+}
+table tr {
+  text-align: center;
+}
